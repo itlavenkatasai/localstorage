@@ -1,0 +1,28 @@
+body{
+text-align: center;
+border: 2px;
+background-color: aqua;
+
+}
+#bodyform{
+   width: 400px;
+   height: 350px;
+   background-color: chartreuse;
+   align-content: center;
+   padding: 30px;
+}
+#bodylogin{
+    
+
+   align-content: center;
+}
+#bodycreate{
+    width: 400px;
+   height: 350px;
+   background-color: chartreuse;
+   align-content: center;
+   padding: 30px;
+}
+.col-sm-8{
+    text-align: left;
+}

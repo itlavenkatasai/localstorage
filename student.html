@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student details</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div id="bodyform">
+        <h1>STUDENT DETAILS</h1>
+        <form method="post">
+            <div>
+                <label>Full name:</label>
+                <input type="text" name="fullname" id="fullname">
+                <p id="errorfullname"> </p>
+            </div>
+            <div>
+                <label>Course:</label>
+                <input type="text" name="course" id="course">
+                <p id="errorcourse"></p>
+            </div>
+            <div>
+                <label>Id:</label>
+                <input type="text" name="id" id="id">
+                <p id="errorid"></p>
+            </div>
+            <div>
+                <button type="submit" onclick="studentdetails(event)">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+            <div>
+                <p id="result"></p>
+            </div>
+
+        </form>
+
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

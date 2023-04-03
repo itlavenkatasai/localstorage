@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To create college account</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="bodycreate">
+        <h1>TO CREATE ACCOUNT</h1>
+        <div>
+            <label>E-mail:</label>
+            <input type="email" name="email" id="email">
+            <p id="erroremail"></p>
+        </div>
+        <div>
+            <label>Setpassword</label>
+            <input type="password" name="password" id="setpassword">
+            <p id="errorsetpassword"></p>
+        </div>
+        <div>
+            <label>Confirmpassword:</label>
+            <input type="password" name="password" id="confirmpassword">
+            <p id="errorconfirmpassword"></p>
+        </div>
+        <button type="submit" onclick="createbutton(event)"> Create account</button><br><br>
+        <a href="clgaccountlogin.html">Login</a>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
